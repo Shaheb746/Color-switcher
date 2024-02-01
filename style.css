@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, #1265dc 10%, #1961e8dd 30%, #840eec 90%);
+    place-content: center;
+    display: grid;
+    margin: auto;
+    height: 100%;
+}
+
+.contenar {
+    width: 81vw;
+    border-radius: 7px;
+    background-color: #ffffff21;
+    padding: 20px;
+}
+
+.screen {
+    background-color: #fff;
+    height: 300px;
+    width: 300px;
+    border-radius: 200px;
+    margin: 40px 0px 40px 0px;
+    box-shadow: 20px 20px 60px #524f4f, inset -20px -20px 60px #ffffff40;
+
+}
+
+h1 {
+    font-size: 5vw;
+    text-transform: capitalize;
+    margin-top: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+
+
+.btn {
+    font-size: 2.5vw;
+    padding: 11px 0px;
+    width: 15vw;
+    border-radius: 10px;
+    color: white;
+    margin: 5px;
+
+}
+
+.btn1 {
+    background-color: magenta;
+}
+
+.btn2 {
+    background-color: green;
+}
+
+.btn3 {
+    background-color: blue;
+}
+
+.btn4 {
+    background-color: red;
+}
+
+.btn5 {
+    background-color: indigo;
+}
+
+.btn6 {
+    background-color: pink;
+}
+
+.bt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bt2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttn2 {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        color: #fff;
+        font-size: 5vw;
+        text-align: center;
+    }
+
+    .contenar {
+        width: 84vw;
+        padding: 20px;
+    }
+
+    .btn {
+        font-size: 4.5vw;
+        padding: 10px 0px;
+        width: 22vw;
+        margin: 3px;
+
+    }
+
+    .screen {
+        height: 66vw;
+        width: 66vw;
+    }
+}
